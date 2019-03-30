@@ -1,0 +1,31 @@
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 100%; /*cca 16px*/
+      }
+
+      .wrapper {
+        background:
+          -webkit-linear-gradient(64deg, hsla(184.53, 92.7%, 44.86%, 1) 0%, hsla(184.53, 92.7%, 44.86%, 0) 65%),
+          -webkit-linear-gradient(135deg, hsla(182.26, 79.3%, 55.6%, 1) 15%, hsla(182.26, 79.3%, 55.6%, 0) 80%),
+          -webkit-linear-gradient(344deg, hsla(225.28, 68.76%, 52.52%, 1) 23%, hsla(225.28, 68.76%, 52.52%, 0) 75%);
+        background:
+          linear-gradient(26deg, hsla(184.53, 92.7%, 44.86%, 1) 0%, hsla(184.53, 92.7%, 44.86%, 0) 65%),
+          linear-gradient(315deg, hsla(182.26, 79.3%, 55.6%, 1) 15%, hsla(182.26, 79.3%, 55.6%, 0) 80%),
+          linear-gradient(106deg, hsla(225.28, 68.76%, 52.52%, 1) 23%, hsla(225.28, 68.76%, 52.52%, 0) 75%);
+
+        height: 951px;
+        width: 100%;
+        text-align: center;
+        }
+
+
+    .title {
+      padding: 20px;
+      color: #fff;
+      font-size: 26px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      letter-spacing: 1px;
+      margin-bottom: 250px;
+    }
