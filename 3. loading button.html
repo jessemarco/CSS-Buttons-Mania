@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="demo.css">
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <title>Online Influencer</title>
+
+    <style type="text/css">
+
+        button  {
+          font-size: 35px;
+          cursor: pointer;
+        }
+
+        .hidden {
+          position: absolute;
+          top: -20px;
+          visibility: hidden;
+        }
+
+    </style>
+
+
+  </head>
+  <body>
+  	<div class="wrapper">
+  	<div class="title">Online Influencer</div>
+  		
+      <button>Load Data</button>
+
+      <!-- preload -->
+      <i class="hidden fas fa-yin-yang fa-spin"></i>
+  	</div>
+  	<!-- wrapper -->
+
+    
+
+    <script type="text/javascript">
+      var button = document.querySelector("button");
+      button.addEventListener("click",function(){
+        button.disabled = true;
+        button.innerHTML = "<i class=\"fas fa-yin-yang fa-spin\"></i> Loading Data ...";
+          setTimeout(function(){
+            button.disabled = false;
+            button.innerHTML = "Data Loaded";
+            alert("Data has been loaded.");
+          },2000);
+      });
+    </script>
+
+  </body>
+</html>
